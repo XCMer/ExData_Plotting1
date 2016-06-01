@@ -24,8 +24,6 @@ lines(list(x=data$DateTime, y=data$Sub_metering_2), col="red")
 lines(list(x=data$DateTime, y=data$Sub_metering_3), col="blue")
 
 # Add legends
-# I've added extra spaces to the first legend item or else R partially puts the text outside
-# the right border
 legend("topright", col=c("black", "red", "blue"),
        legend=c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"),
        lty="solid")
