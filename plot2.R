@@ -17,7 +17,6 @@ png("plot2.png", width=480, height=480, units="px")
 
 # The reference plot does not have a "main" title, but I've added it here
 plot(data$DateTime, data$Global_active_power, type="l",
-     xlab="", ylab="Global Active Power (kilowatts)",
-     main="Global Active Power")
+     xlab="", ylab="Global Active Power (kilowatts)")
 
 dev.off()

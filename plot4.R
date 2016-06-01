@@ -31,6 +31,6 @@ legend("topright", col=c("black", "red", "blue"),
        lty="solid", box.lwd=0)
 
 # 4th plot: Global reactive power
-plot(data$DateTime, data$Global_reactive_power, type="l", xlab="datetime", ylab="Global Reactive Power")
+plot(data$DateTime, data$Global_reactive_power, type="l", xlab="datetime", ylab="Global_reactive_power")
 
 dev.off()
